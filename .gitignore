@@ -1,0 +1,44 @@
+# ─── Environnement ───────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Flutter / Dart ──────────────────────────────────────
+mobile/.dart_tool/
+mobile/.flutter-plugins-dependencies
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+mobile/coverage/
+mobile/**/.last_build_id
+mobile/app.*.symbols
+mobile/app.*.map.json
+mobile/android/app/debug
+mobile/android/app/profile
+mobile/android/app/release
+
+# ─── Node.js / Next.js ───────────────────────────────────
+web/node_modules/
+web/.next/
+web/out/
+web/.pnp
+web/.pnp.js
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+# ─── Supabase ────────────────────────────────────────────
+supabase/.temp/
+
+# ─── OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDEs ────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/settings.json
+
+# ─── Logs ────────────────────────────────────────────────
+*.log
