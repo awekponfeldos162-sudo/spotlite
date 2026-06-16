@@ -40,5 +40,8 @@ desktop.ini
 *.iml
 .vscode/settings.json
 
+# ─── Claude Code ─────────────────────────────────────────
+.claude/
+
 # ─── Logs ────────────────────────────────────────────────
 *.log
